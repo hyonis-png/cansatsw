@@ -1,0 +1,5 @@
+if(EXISTS "C:/Users/heyso/OneDrive/Documents/cansatsw/build/test_payload_e3b0c442_MinSizeRel_tests.cmake")
+  include("C:/Users/heyso/OneDrive/Documents/cansatsw/build/test_payload_e3b0c442_MinSizeRel_tests.cmake")
+else()
+  add_test(test_payload_NOT_BUILT test_payload_NOT_BUILT)
+endif()

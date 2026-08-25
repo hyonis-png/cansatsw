@@ -1,0 +1,10 @@
+^C:\USERS\HEYSO\ONEDRIVE\DOCUMENTS\CANSATSW\BUILD\_DEPS\GOOGLETEST-SUBBUILD\CMAKEFILES\1075035CC3626F3141611BB849630113\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/heyso/OneDrive/Documents/cansatsw/build/_deps/googletest-subbuild -BC:/Users/heyso/OneDrive/Documents/cansatsw/build/_deps/googletest-subbuild --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/heyso/OneDrive/Documents/cansatsw/build/_deps/googletest-subbuild/googletest-populate.slnx
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

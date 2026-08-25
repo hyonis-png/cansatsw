@@ -1,0 +1,3 @@
+C:/Users/heyso/OneDrive/Documents/cansatsw/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate.dir
+C:/Users/heyso/OneDrive/Documents/cansatsw/build/_deps/googletest-subbuild/CMakeFiles/ALL_BUILD.dir
+C:/Users/heyso/OneDrive/Documents/cansatsw/build/_deps/googletest-subbuild/CMakeFiles/ZERO_CHECK.dir

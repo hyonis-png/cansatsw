@@ -1,0 +1,10 @@
+^C:\USERS\HEYSO\ONEDRIVE\DOCUMENTS\CANSATSW\BUILD\_DEPS\GOOGLETEST-SRC\GOOGLEMOCK\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/heyso/OneDrive/Documents/cansatsw -BC:/Users/heyso/OneDrive/Documents/cansatsw/build --check-stamp-file C:/Users/heyso/OneDrive/Documents/cansatsw/build/_deps/googletest-build/googlemock/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

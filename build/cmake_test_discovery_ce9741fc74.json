@@ -1,0 +1,67 @@
+{
+  "tests": 11,
+  "name": "AllTests",
+  "testsuites": [
+    {
+      "name": "PayloadTest",
+      "tests": 11,
+      "testsuite": [
+        {
+          "name": "PackOutTelemetry",
+          "file": "C:\\Users\\heyso\\OneDrive\\Documents\\cansatsw\\tests\\test_payload.cpp",
+          "line": 5
+        },
+        {
+          "name": "PackCommandTelemetryOn",
+          "file": "C:\\Users\\heyso\\OneDrive\\Documents\\cansatsw\\tests\\test_payload.cpp",
+          "line": 32
+        },
+        {
+          "name": "PackCommandTelemetryOff",
+          "file": "C:\\Users\\heyso\\OneDrive\\Documents\\cansatsw\\tests\\test_payload.cpp",
+          "line": 48
+        },
+        {
+          "name": "UnpackCommandTelemetry",
+          "file": "C:\\Users\\heyso\\OneDrive\\Documents\\cansatsw\\tests\\test_payload.cpp",
+          "line": 64
+        },
+        {
+          "name": "PackCommandMechanism",
+          "file": "C:\\Users\\heyso\\OneDrive\\Documents\\cansatsw\\tests\\test_payload.cpp",
+          "line": 79
+        },
+        {
+          "name": "UnpackCommandMechanism",
+          "file": "C:\\Users\\heyso\\OneDrive\\Documents\\cansatsw\\tests\\test_payload.cpp",
+          "line": 98
+        },
+        {
+          "name": "RejectInvalidCommandTelemetryLength",
+          "file": "C:\\Users\\heyso\\OneDrive\\Documents\\cansatsw\\tests\\test_payload.cpp",
+          "line": 119
+        },
+        {
+          "name": "RejectInvalidCommandTelemetryType",
+          "file": "C:\\Users\\heyso\\OneDrive\\Documents\\cansatsw\\tests\\test_payload.cpp",
+          "line": 134
+        },
+        {
+          "name": "RejectInvalidBoolean",
+          "file": "C:\\Users\\heyso\\OneDrive\\Documents\\cansatsw\\tests\\test_payload.cpp",
+          "line": 150
+        },
+        {
+          "name": "RejectInvalidCommandMechanismLength",
+          "file": "C:\\Users\\heyso\\OneDrive\\Documents\\cansatsw\\tests\\test_payload.cpp",
+          "line": 166
+        },
+        {
+          "name": "RejectInvalidCommandMechanismType",
+          "file": "C:\\Users\\heyso\\OneDrive\\Documents\\cansatsw\\tests\\test_payload.cpp",
+          "line": 182
+        }
+      ]
+    }
+  ]
+}
